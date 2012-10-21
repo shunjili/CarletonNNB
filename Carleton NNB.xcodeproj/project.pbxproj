@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08DB64E61633CC7200AC78F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DB64E51633CC7200AC78F2 /* UIKit.framework */; };
+		08DB64E81633CC7200AC78F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DB64E71633CC7200AC78F2 /* Foundation.framework */; };
+		08DB64EA1633CC7200AC78F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DB64E91633CC7200AC78F2 /* CoreGraphics.framework */; };
+		08DB64F01633CC7200AC78F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08DB64EE1633CC7200AC78F2 /* InfoPlist.strings */; };
+		08DB64F21633CC7200AC78F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB64F11633CC7200AC78F2 /* main.m */; };
+		08DB64F61633CC7200AC78F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB64F51633CC7200AC78F2 /* AppDelegate.m */; };
+		08DB64F81633CC7200AC78F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 08DB64F71633CC7200AC78F2 /* Default.png */; };
+		08DB64FA1633CC7200AC78F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08DB64F91633CC7200AC78F2 /* Default@2x.png */; };
+		08DB64FC1633CC7200AC78F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08DB64FB1633CC7200AC78F2 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08DB64E11633CC7200AC78F2 /* Carleton NNB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carleton NNB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DB64E51633CC7200AC78F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08DB64E71633CC7200AC78F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08DB64E91633CC7200AC78F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08DB64ED1633CC7200AC78F2 /* Carleton NNB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Carleton NNB-Info.plist"; sourceTree = "<group>"; };
+		08DB64EF1633CC7200AC78F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08DB64F11633CC7200AC78F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08DB64F31633CC7200AC78F2 /* Carleton NNB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carleton NNB-Prefix.pch"; sourceTree = "<group>"; };
+		08DB64F41633CC7200AC78F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08DB64F51633CC7200AC78F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08DB64F71633CC7200AC78F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		08DB64F91633CC7200AC78F2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		08DB64FB1633CC7200AC78F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08DB64DE1633CC7200AC78F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DB64E61633CC7200AC78F2 /* UIKit.framework in Frameworks */,
+				08DB64E81633CC7200AC78F2 /* Foundation.framework in Frameworks */,
+				08DB64EA1633CC7200AC78F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08DB64D61633CC7200AC78F2 = {
+			isa = PBXGroup;
+			children = (
+				08DB64EB1633CC7200AC78F2 /* Carleton NNB */,
+				08DB64E41633CC7200AC78F2 /* Frameworks */,
+				08DB64E21633CC7200AC78F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08DB64E21633CC7200AC78F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08DB64E11633CC7200AC78F2 /* Carleton NNB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08DB64E41633CC7200AC78F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08DB64E51633CC7200AC78F2 /* UIKit.framework */,
+				08DB64E71633CC7200AC78F2 /* Foundation.framework */,
+				08DB64E91633CC7200AC78F2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08DB64EB1633CC7200AC78F2 /* Carleton NNB */ = {
+			isa = PBXGroup;
+			children = (
+				08DB64F41633CC7200AC78F2 /* AppDelegate.h */,
+				08DB64F51633CC7200AC78F2 /* AppDelegate.m */,
+				08DB64EC1633CC7200AC78F2 /* Supporting Files */,
+			);
+			path = "Carleton NNB";
+			sourceTree = "<group>";
+		};
+		08DB64EC1633CC7200AC78F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08DB64ED1633CC7200AC78F2 /* Carleton NNB-Info.plist */,
+				08DB64EE1633CC7200AC78F2 /* InfoPlist.strings */,
+				08DB64F11633CC7200AC78F2 /* main.m */,
+				08DB64F31633CC7200AC78F2 /* Carleton NNB-Prefix.pch */,
+				08DB64F71633CC7200AC78F2 /* Default.png */,
+				08DB64F91633CC7200AC78F2 /* Default@2x.png */,
+				08DB64FB1633CC7200AC78F2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08DB64E01633CC7200AC78F2 /* Carleton NNB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DB64FF1633CC7200AC78F2 /* Build configuration list for PBXNativeTarget "Carleton NNB" */;
+			buildPhases = (
+				08DB64DD1633CC7200AC78F2 /* Sources */,
+				08DB64DE1633CC7200AC78F2 /* Frameworks */,
+				08DB64DF1633CC7200AC78F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carleton NNB";
+			productName = "Carleton NNB";
+			productReference = 08DB64E11633CC7200AC78F2 /* Carleton NNB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08DB64D81633CC7200AC78F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shunji Li";
+			};
+			buildConfigurationList = 08DB64DB1633CC7200AC78F2 /* Build configuration list for PBXProject "Carleton NNB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08DB64D61633CC7200AC78F2;
+			productRefGroup = 08DB64E21633CC7200AC78F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08DB64E01633CC7200AC78F2 /* Carleton NNB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08DB64DF1633CC7200AC78F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DB64F01633CC7200AC78F2 /* InfoPlist.strings in Resources */,
+				08DB64F81633CC7200AC78F2 /* Default.png in Resources */,
+				08DB64FA1633CC7200AC78F2 /* Default@2x.png in Resources */,
+				08DB64FC1633CC7200AC78F2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08DB64DD1633CC7200AC78F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DB64F21633CC7200AC78F2 /* main.m in Sources */,
+				08DB64F61633CC7200AC78F2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08DB64EE1633CC7200AC78F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08DB64EF1633CC7200AC78F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08DB64FD1633CC7200AC78F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08DB64FE1633CC7200AC78F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08DB65001633CC7200AC78F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carleton NNB/Carleton NNB-Prefix.pch";
+				INFOPLIST_FILE = "Carleton NNB/Carleton NNB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08DB65011633CC7200AC78F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carleton NNB/Carleton NNB-Prefix.pch";
+				INFOPLIST_FILE = "Carleton NNB/Carleton NNB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08DB64DB1633CC7200AC78F2 /* Build configuration list for PBXProject "Carleton NNB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DB64FD1633CC7200AC78F2 /* Debug */,
+				08DB64FE1633CC7200AC78F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08DB64FF1633CC7200AC78F2 /* Build configuration list for PBXNativeTarget "Carleton NNB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DB65001633CC7200AC78F2 /* Debug */,
+				08DB65011633CC7200AC78F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08DB64D81633CC7200AC78F2 /* Project object */;
+}

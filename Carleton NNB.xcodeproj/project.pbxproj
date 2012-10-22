@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081589A01634DC3500CBC8D6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0815899F1634DC3500CBC8D6 /* Icon.png */; };
+		084B233016345DF900042FD8 /* NewFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B232F16345DF900042FD8 /* NewFeedItem.m */; };
+		08B4CE9D1634CBDC00AEF91D /* NewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B4CE9B1634CBDC00AEF91D /* NewDetailViewController.m */; };
+		08B4CE9E1634CBDC00AEF91D /* NewDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B4CE9C1634CBDC00AEF91D /* NewDetailViewController.xib */; };
 		08DB64E61633CC7200AC78F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DB64E51633CC7200AC78F2 /* UIKit.framework */; };
 		08DB64E81633CC7200AC78F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DB64E71633CC7200AC78F2 /* Foundation.framework */; };
 		08DB64EA1633CC7200AC78F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DB64E91633CC7200AC78F2 /* CoreGraphics.framework */; };
@@ -16,9 +20,16 @@
 		08DB64F81633CC7200AC78F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 08DB64F71633CC7200AC78F2 /* Default.png */; };
 		08DB64FA1633CC7200AC78F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08DB64F91633CC7200AC78F2 /* Default@2x.png */; };
 		08DB64FC1633CC7200AC78F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08DB64FB1633CC7200AC78F2 /* Default-568h@2x.png */; };
+		08DB650F1633CEEE00AC78F2 /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DB650E1633CEEE00AC78F2 /* NewsListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0815899F1634DC3500CBC8D6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		084B232E16345DF900042FD8 /* NewFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeedItem.h; sourceTree = "<group>"; };
+		084B232F16345DF900042FD8 /* NewFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeedItem.m; sourceTree = "<group>"; };
+		08B4CE9A1634CBDC00AEF91D /* NewDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDetailViewController.h; sourceTree = "<group>"; };
+		08B4CE9B1634CBDC00AEF91D /* NewDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDetailViewController.m; sourceTree = "<group>"; };
+		08B4CE9C1634CBDC00AEF91D /* NewDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewDetailViewController.xib; sourceTree = "<group>"; };
 		08DB64E11633CC7200AC78F2 /* Carleton NNB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carleton NNB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DB64E51633CC7200AC78F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		08DB64E71633CC7200AC78F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +43,8 @@
 		08DB64F71633CC7200AC78F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		08DB64F91633CC7200AC78F2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		08DB64FB1633CC7200AC78F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		08DB650D1633CEEE00AC78F2 /* NewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListViewController.h; sourceTree = "<group>"; };
+		08DB650E1633CEEE00AC78F2 /* NewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +93,13 @@
 			children = (
 				08DB64F41633CC7200AC78F2 /* AppDelegate.h */,
 				08DB64F51633CC7200AC78F2 /* AppDelegate.m */,
+				08DB650D1633CEEE00AC78F2 /* NewsListViewController.h */,
+				08DB650E1633CEEE00AC78F2 /* NewsListViewController.m */,
+				08B4CE9A1634CBDC00AEF91D /* NewDetailViewController.h */,
+				08B4CE9B1634CBDC00AEF91D /* NewDetailViewController.m */,
+				08B4CE9C1634CBDC00AEF91D /* NewDetailViewController.xib */,
+				084B232E16345DF900042FD8 /* NewFeedItem.h */,
+				084B232F16345DF900042FD8 /* NewFeedItem.m */,
 				08DB64EC1633CC7200AC78F2 /* Supporting Files */,
 			);
 			path = "Carleton NNB";
@@ -88,6 +108,7 @@
 		08DB64EC1633CC7200AC78F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0815899F1634DC3500CBC8D6 /* Icon.png */,
 				08DB64ED1633CC7200AC78F2 /* Carleton NNB-Info.plist */,
 				08DB64EE1633CC7200AC78F2 /* InfoPlist.strings */,
 				08DB64F11633CC7200AC78F2 /* main.m */,
@@ -154,6 +175,8 @@
 				08DB64F81633CC7200AC78F2 /* Default.png in Resources */,
 				08DB64FA1633CC7200AC78F2 /* Default@2x.png in Resources */,
 				08DB64FC1633CC7200AC78F2 /* Default-568h@2x.png in Resources */,
+				08B4CE9E1634CBDC00AEF91D /* NewDetailViewController.xib in Resources */,
+				081589A01634DC3500CBC8D6 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +189,9 @@
 			files = (
 				08DB64F21633CC7200AC78F2 /* main.m in Sources */,
 				08DB64F61633CC7200AC78F2 /* AppDelegate.m in Sources */,
+				08DB650F1633CEEE00AC78F2 /* NewsListViewController.m in Sources */,
+				084B233016345DF900042FD8 /* NewFeedItem.m in Sources */,
+				08B4CE9D1634CBDC00AEF91D /* NewDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +300,7 @@
 				08DB65011633CC7200AC78F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

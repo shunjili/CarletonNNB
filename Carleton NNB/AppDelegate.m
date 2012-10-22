@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsListViewController.h"
 
 @implementation AppDelegate
 
@@ -15,7 +16,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    NewsListViewController *newsListViewController = [[NewsListViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:newsListViewController];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
